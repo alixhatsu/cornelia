@@ -1,0 +1,36 @@
+.destiny {
+    position: relative;
+    background-color: var(--primary-green);
+    padding: 118px 0 85px;
+    overflow: hidden;
+    color: var(--primary-pink);
+}
+
+.destiny__content {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+}
+
+.destiny__text {
+    max-width: 36%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.destiny__link {
+    font-size: 18px;
+    padding: 14.5px 31px;
+    border: 2px solid var(--primary-pink);
+    border-radius: 100px;
+    color: var(--primary-pink);
+    font-weight: 600;
+}
+
+.destiny img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
