@@ -1,31 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
 @import url('./header.css');
 @import url('./hero.css');
 @import url('./discover.css');
 @import url('./destiny.css');
 @import url('./customize.css');
 
-@font-face {
-    font-family: "Motter Corpus Std";
-    src: url("../assets/fonts/Motter\ Corpus\ Std\ Regular.otf");
-}
-
 :root {
     --primary-green: #0B4141;
     --primary-pink: #FFCCBC;
-    --white: #FFFFFF;
+}
+
+@font-face {
+    font-family: "Motter Corpus Std";
+    src: url('../assets/fonts/Motter\ Corpus\ Std\ Regular.otf');
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-body {
-    font-family: "Nunito Sans", sans-serif;
-    display: flex;
-    flex-direction: column;
 }
 
 a {
@@ -37,14 +31,26 @@ li {
 }
 
 button {
-    background: none;
-    outline: none;
     border: none;
+    outline: none;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+[class*="__container"] {
+    max-width: 88%;
+    margin: 0 auto;
+}
+
+[class*="__desc"] {
+    font-size: 24px;
+    line-height: 32px;
 }
 
 main {
     padding-top: 82.4px;
-    flex: 1 1 auto;
 }
 
 h1, h2 {
@@ -53,16 +59,6 @@ h1, h2 {
 
 h3 {
     font-size: 68px;
-    font-weight: 800;
     line-height: 72px;
-}
-
-[class*="__desc"] {
-    font-size: 24px;
-    line-height: 32px;
-}
-
-[class*="__container"] {
-    max-width: 88%;
-    margin: 0 auto;
+    font-weight: 900;
 }
