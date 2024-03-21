@@ -1,0 +1,42 @@
+.destiny{
+    background-color: var(--primary-green);
+    padding: 118px 0 85px;
+    position: relative;
+    overflow: hidden;
+    color: var(--primary-pink);
+}
+.destiny__container{
+
+}
+.destiny__content{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    align-items: flex-start;
+}
+.destiny__text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    max-width: 38%;
+}
+.destiny__title{
+
+}
+.destiny__desc{
+
+}
+.destiny__link{
+    font-size: 18px;
+    padding: 14.5px 31px;
+    color: var(--primary-pink);
+    border: 2px solid var(--primary-pink);
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.destiny img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

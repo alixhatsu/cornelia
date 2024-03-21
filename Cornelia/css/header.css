@@ -1,0 +1,44 @@
+.header{
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(18px);
+    z-index: 9999;
+}
+.header__container{
+
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__logo{
+    font-family: "Motter Corpus Std";
+    font-size: 26px;
+    color: var(--primary-green);
+}
+.header__actions{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+.header__list{
+    display: flex;
+    gap: 24px;
+}
+.header__list-item a{
+    color: var(--primary-green);
+    font-weight: 500;
+}
+.header__download{
+    background-color: var(--primary-green);
+    padding: 12px 43.5px;
+    border-radius: 124px;
+    color: var(--primary-pink);
+    font-size: 16px;
+    font-weight: 500;
+}
