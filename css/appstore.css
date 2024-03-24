@@ -1,0 +1,60 @@
+.appstore {
+    padding: 118px 0 93px;
+    position: relative;
+    overflow: hidden;
+}
+
+.appstore__container {}
+
+.appstore__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    width: 37.2%;
+}
+
+.appstore__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.appstore__text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: var(--primary-green);
+}
+
+.appstore__title {}
+
+.appstore__desc span {
+    font-weight: 700;
+}
+
+.appstore__link {
+    padding: 14.5px 29px;
+    border: 2px solid var(--primary-green);
+    color: currentColor;
+    font-size: 18px;
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+.appstore > img {
+    position: absolute;
+}
+
+.appstore > img:nth-child(2) {
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.appstore > img:nth-child(3) {
+    width: 2451px;
+    right: -996px;
+    bottom: -636px;
+}

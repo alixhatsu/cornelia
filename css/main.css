@@ -5,6 +5,11 @@
 @import url('./discover.css');
 @import url('./destiny.css');
 @import url('./customize.css');
+@import url('./magic.css');
+@import url('./reviews.css');
+@import url('./circles.css');
+@import url('./appstore.css');
+@import url('./footer.css');
 
 :root {
     --primary-green: #0B4141;

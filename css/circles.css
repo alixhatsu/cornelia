@@ -1,0 +1,42 @@
+.circles {
+    padding: 16px 0 194px;
+    position: relative;
+    overflow: hidden;
+}
+
+.circles__container {
+    display: flex;
+    gap: 166px;
+}
+
+.circles__content {
+    margin: 134px 0 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+}
+
+.circles__text {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    color: var(--primary-green);
+}
+
+.circles__title {}
+
+.circles__desc {}
+
+.circles__link {
+    padding: 14.5px 39px;
+    border: 2px solid var(--primary-green);
+    color: currentColor;
+    font-size: 18px;
+    border-radius: 100px;
+    font-weight: 700;
+}
+
+.circles img:nth-child(2) {
+    position: absolute;
+}

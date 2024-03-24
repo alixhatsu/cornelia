@@ -1,0 +1,57 @@
+.footer {
+    background-color: var(--primary-green);
+    padding: 236px 0 101px;
+    color: var(--primary-pink);
+}
+
+.footer__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+}
+
+.footer__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.footer__text h2 {
+    font-family: "Motter Corpus Std";
+    font-size: 80px;
+    text-align: center;
+}
+
+.footer__buttons {
+    display: flex;
+    gap: 48px;
+}
+
+.footer__button {
+    background: none;
+    padding: 21px 40px;
+    border: 2px var(--primary-pink) solid;
+    border-radius: 300px;
+    border-bottom: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--primary-pink);
+    font-size: 16px;
+}
+
+.footer__button span {
+    font-weight: 700;
+}
+
+.footer__info {
+    align-self: start;
+}
+
+.footer__info a {
+    font-family: "Motter Corpus Std";
+    font-size: 20px;
+    color: var(--primary-pink);
+}

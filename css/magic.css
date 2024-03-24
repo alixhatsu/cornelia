@@ -1,0 +1,33 @@
+.magic {
+    background-color: rgba(245, 245, 245, 0.6);
+    padding: 117px 0 371px;
+    position: relative;
+    overflow: hidden;
+}
+
+.magic__text {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    text-align: center;
+}
+
+.magic__title {
+    font-family: "Motter Corpus Std";
+    font-size: 80px;
+    color: var(--primary-pink);
+}
+
+.magic__desc {
+    color: var(--primary-green);
+}
+
+.magic__desc span {
+    font-weight: 700;
+}
+
+.magic img {
+    position: absolute;
+    bottom: -8px;
+    width: 100%;
+}
